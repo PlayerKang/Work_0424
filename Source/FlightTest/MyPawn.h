@@ -11,6 +11,7 @@
 
 class UBoxComponent;
 class UStaticMeshComponent;
+class UPropellerComponent;
 class USpringArmComponent;
 class UCameraComponent;
 class UFloatingPawnMovement;
@@ -40,8 +41,8 @@ public:
 
 	UBoxComponent* Box;
 	UStaticMeshComponent* Body;
-	UStaticMeshComponent* Left;
-	UStaticMeshComponent* Right;
+	UPropellerComponent* Left;
+	UPropellerComponent* Right;
 	USpringArmComponent* SpringArm;
 	UCameraComponent* Camera;
 	UFloatingPawnMovement* Movement;
